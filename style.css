@@ -1,0 +1,71 @@
+*{box-sizing:border-box;}
+body{background-image:url("images/s1.jpg");background-size:cover;}
+.cont form{;width:80%;margin:50px 0 0 25px;}
+.cont input{padding:40px;width:45%;margin-bottom:65px;text-align: right;
+	display:block;border:1px solid #999;font-weight:bold;font-size:18px;outline-style:none}
+.cont #t2{margin-bottom:8px;}
+.cont input[type='submit']{margin-top:-50px;cursor:pointer;background:#c44646;color:white;text-align: center;}
+.cont{margin:25px 0;width:90%}
+.nav{background:#c44646;color:white;padding:20px;margin:-20px;font-weight:bold;font-size:25px;border:1px solid #7777}
+.nav i{font-size:40px}
+form .fspecial{font-size:50px;position:relative;top:75px;right:185px;padding:0;cursor:pointer;color:#c44646;}
+
+.lis,#lis2{margin-bottom: 20px;background-color: white;width:20%;position: absolute;left: 500px;
+	border:1px solid green;border-radius: 8px;border-top: none;font-weight: bold;font-size: 16px;display: none;  
+ }
+.lis{margin-top: -62px;overflow:scroll;height: 400px}
+#lis2{margin-top: -5px;overflow:scroll;height: 400px}
+
+ .before,#before2{width: 0;border:25px solid;border-color: transparent transparent white transparent;margin-bottom: -30px;
+ 		position: relative;top: -90px;display: none;
+ }
+ #before2{top: -30px; }
+
+.lis ul li{list-style: none;display: none;color:black ;padding: 12px;cursor: pointer;width: 113%;margin-left: -38px}
+
+.lis ul li:hover{background:#c44646}
+
+#vip{width: 80%;
+    background-color: #504a4a;
+    color: white;
+    position: relative;
+    top: -500px;margin: 0;padding: 0;display: none;
+    text-align: right;margin-bottom: -300px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold; }
+
+#vip li{list-style: none;padding: 28px;cursor: pointer;}
+
+#vip hr{opacity: .2;}
+
+#vip input[type='radio']{  
+    margin-top: 5px;
+    margin-left: -150px;
+    display: none;
+    float: right;cursor: pointer;
+    margin-right: -166px;}
+
+/*Start in the Second page "Result Page".*/
+
+.headCont{margin: 40px auto;text-align: center;}
+
+.headd{margin: 40px;background-color: #858285;color:white;padding:10px;margin-left: 340px;
+    font-weight:bold;font-size:25px;border:1px solid #777;width: 62%;text-align: center;
+    border-radius: 100px 0;
+     }
+
+.cont .main-table{margin-left: 320px}
+.cont .main-table tr:first-child td
+{
+    font-size: 22px;background-color: #c44646;color: white;text-align: center;padding: 35px 30px
+}
+.cont .table tr td{text-align: center;background-color: #FFF;padding: 22px; font-size: 22px;font-weight: bold; }     
+
+#hidbtn{
+    padding: 10px;
+    background-color: #c5e2c5;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
